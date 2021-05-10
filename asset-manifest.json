@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/appointments-app/static/css/main.5c698664.chunk.css",
+    "main.css": "/appointments-app/static/css/main.7ddcba09.chunk.css",
     "main.js": "/appointments-app/static/js/main.8064e609.chunk.js",
     "main.js.map": "/appointments-app/static/js/main.8064e609.chunk.js.map",
     "runtime-main.js": "/appointments-app/static/js/runtime-main.4440d071.js",
@@ -10,14 +10,14 @@
     "static/js/2.954a4acb.chunk.js.map": "/appointments-app/static/js/2.954a4acb.chunk.js.map",
     "index.html": "/appointments-app/index.html",
     "static/css/2.800be05e.chunk.css.map": "/appointments-app/static/css/2.800be05e.chunk.css.map",
-    "static/css/main.5c698664.chunk.css.map": "/appointments-app/static/css/main.5c698664.chunk.css.map",
+    "static/css/main.7ddcba09.chunk.css.map": "/appointments-app/static/css/main.7ddcba09.chunk.css.map",
     "static/js/2.954a4acb.chunk.js.LICENSE.txt": "/appointments-app/static/js/2.954a4acb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4440d071.js",
     "static/css/2.800be05e.chunk.css",
     "static/js/2.954a4acb.chunk.js",
-    "static/css/main.5c698664.chunk.css",
+    "static/css/main.7ddcba09.chunk.css",
     "static/js/main.8064e609.chunk.js"
   ]
 }
