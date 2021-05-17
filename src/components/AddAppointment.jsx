@@ -38,41 +38,43 @@ const AddAppointment = ({ onSendAppointment, lastId }) => {
                 <Form className="add-apt my-2">
                     <Form.Group controlId="ownerName" className="mx-auto w-75">
                         <Form.Label className="mt-1">Owner Name</Form.Label>
-                        <Form.Control type="text" placeholder="" required
+                        <Form.Control type="text" placeholder=""
                         onChange={(event) => {setFormData({...formData, ownerName: event.target.value}) }}
                         value={formData.ownerName}
                         />
                     </Form.Group>
                     <Form.Group controlId="petName" className="mx-auto w-75">
                         <Form.Label className="mt-1">Pet Name</Form.Label>
-                        <Form.Control type="text" placeholder="" required
+                        <Form.Control type="text" placeholder=""
                         onChange={(event) => {setFormData({...formData, petName: event.target.value}) }}
                         value={formData.petName}
                         />
                     </Form.Group>
                     <Form.Group controlId="aptTime" className="mx-auto w-75">
                         <Form.Label className="mt-1">Appointment Date</Form.Label>
-                        <Form.Control type="date" placeholder="" required
+                        <Form.Control type="date" placeholder=""
                         onChange={(event) => {setFormData({...formData, aptDate: event.target.value}) }}
                         value={formData.aptDate}
                         />
                     </Form.Group>
                     <Form.Group controlId="aptTime" className="mx-auto w-75">
                         <Form.Label className="mt-1">Appointment Time</Form.Label>
-                        <Form.Control type="time" placeholder="" required
+                        <Form.Control type="time" placeholder=""
                         onChange={(event) => {setFormData({...formData, aptTime: event.target.value}) }}
                         value={formData.aptTime}
                         />
                     </Form.Group>
                     <Form.Group controlId="petInfo" className="mx-auto w-75">
                         <Form.Label className="mt-1">Appointment Notes</Form.Label>
-                        <Form.Control as="textarea" rows={3} required
+                        <Form.Control as="textarea" rows={3}
                         onChange={(event) => {setFormData({...formData, aptNotes: event.target.value}) }}
                         value={formData.aptNotes}
                         />
                     </Form.Group>
                     <div className="mx-auto w-75">
-                    <Button type="submit" variant="success" className="my-3" onClick={formDataPublish}>Submit</Button>
+                    <Button type="submit" variant="success" className="my-3" 
+                    onClick={formDataPublish}
+                    disabled={!formData.ownerName || !formData.aptDate || !formData.aptTime || !formData.aptNotes}>Submit</Button>
                     </div>
                 </Form>
             }
