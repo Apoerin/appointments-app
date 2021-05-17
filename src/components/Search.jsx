@@ -1,7 +1,8 @@
 import {  BiCheck } from "react-icons/bi";
 import { Form, Dropdown, Container } from "react-bootstrap";
 
-const Search = ({ query, onQueryChange, sortBy, onSortByChange, orderBy, onOrderByChange }) => {
+const Search = (props) => {
+    const{ query, onQueryChange, sortBy, onSortByChange, orderBy, onOrderByChange } = props;
 
     return (
         <Container className="d-flex justify-content-center my-4 mx-auto w-75" fluid>
